@@ -2954,7 +2954,11 @@
 			box-shadow: none;
 			height: 3.25em;
 			line-height: 3.25em;
-			position: absolute;
+			position: fixed;
+			top: 0px; 
+			left: 0px; 
+			right: 0px;;
+			
 		}
 
 			#header.alt h1 {
@@ -2990,7 +2994,7 @@
 			#header {
 				display: none;
 			}
-
+			
 		}
 
 /* Menu */
@@ -2998,11 +3002,11 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 100%;
-		left: 0;
+		height: 2.25em;
+		right: 0;
 		position: absolute;
 		top: 0;
-		width: 100%;
+		width: 3.5em;
 		display: none;
 	}
 
@@ -3019,6 +3023,7 @@
 
 			.navPanelToggle {
 				display: block;
+				position: fixed;
 			}
 
 		}
@@ -3030,7 +3035,7 @@
 			display: block;
 			font-size: 16px;
 			height: 2.25em;
-			left: 0.5em;
+			right: 0.5em;
 			line-height: 2.25em;
 			position: absolute;
 			text-align: center;
@@ -3039,10 +3044,10 @@
 		}
 
 	#navPanel {
-		-moz-transform: translateX(-20em);
-		-webkit-transform: translateX(-20em);
-		-ms-transform: translateX(-20em);
-		transform: translateX(-20em);
+		-moz-transform: translateX(20em);
+		-webkit-transform: translateX(20em);
+		-ms-transform: translateX(20em);
+		transform: translateX(20em);
 		-moz-transition: -moz-transform 0.5s ease, visibility 0.5s;
 		-webkit-transition: -webkit-transform 0.5s ease, visibility 0.5s;
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
@@ -3051,7 +3056,7 @@
 		visibility: hidden;
 		overflow-y: auto;
 		position: fixed;
-		left: 0;
+		right: 0;
 		top: 0;
 		background: #222;
 		color: #fff;
@@ -3162,17 +3167,20 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
+		background:#000;
 		background-image:url("../../images/banner.png");
 		background-position: right bottom;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
-		min-height: 100%;
-		height: 100% !important;
+		min-height: 100vh;
+		height: 100vh !important;
+		position: relative;
 		
 	}
-
+	
 		#banner:last-child {
+		
 			margin-bottom: 0;
 		}
 
@@ -3194,6 +3202,8 @@
 		}
 		#banner p a{text-decoration:none;color:#ddd}
 		#banner p a:hover{color:#555;font-weight:bolder;}
+
+
 
 		@media screen and (max-width: 1280px) {
 
