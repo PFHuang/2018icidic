@@ -2790,7 +2790,7 @@
 		padding: 6em 0 4em 0;
 		background-image:url(../../images/網頁.png);
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 100%;
 		background-attachment: fixed; 
 		background-position: right center ;
 		
@@ -2839,7 +2839,6 @@
 		@media screen and (max-width: 736px) {
 
 			.wrapper {
-				background-size: contain;
 				padding: 3em 0 1em 0;
 			}
 
