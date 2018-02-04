@@ -2790,9 +2790,9 @@
 		padding: 6em 0 4em 0;
 		background-image:url(../../images/網頁.png);
 		background-repeat: no-repeat;
-		background-size: 100%;
+		background-size: cover;
 		background-attachment: fixed; 
-		background-position: right center ;
+		background-position: 2% 2% ;
 		
 	}
 
