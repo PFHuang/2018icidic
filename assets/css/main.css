@@ -2792,7 +2792,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed; 
-		background-position: right top ;
+		background-position: 10% 10% ;
 		
 	}
 
@@ -2962,7 +2962,7 @@
 		}
 
 			#header.alt h1 {
-				color: #fff;
+				color: #999;
 				left: 2.5em;
 				top: 2em;
 			}
@@ -2977,11 +2977,11 @@
 			}
 
 				#header.alt nav a {
-					color: #fff;
+					color: #aaa;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: #ccc;
+						color: #777;
 					}
 
 			#header.alt .button {
@@ -3186,7 +3186,7 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #555;
 			display: inline-block;
 			font-size: 3.5em;
 			line-height: 1.35;
@@ -3197,11 +3197,11 @@
 		}
 
 		#banner p {
-			color: #ddd;
+			color: #888;
 			font-size: 1.5em;
 			margin-bottom: 4px;
 		}
-		#banner p a{text-decoration:none;color:#ddd}
+		#banner p a{text-decoration:none;color:#888}
 		#banner p a:hover{color:#555;font-weight:bolder;}
 
 
