@@ -2629,7 +2629,7 @@
 	}
 
 	header h2 + p {
-		font-size: 1.25em;
+		font-size: 20%;
 		margin-top: -1em;
 		line-height: 1.5em;
 	}
@@ -2666,7 +2666,7 @@
 		}
 
 		header.major p {
-			font-size: 1.7em;
+			font-size: 4vmin;
 			margin-bottom: 0;
 			padding:4px;
 			}
@@ -2681,9 +2681,7 @@
 				font-size: 2.5em;
 			}
 
-			header.major p {
-				font-size: 1.3em;
-			}
+			
 
 	}
 
@@ -2693,9 +2691,7 @@
 			font-size: 2em;
 		}
 
-		header.major p {
-			font-size: 1.1em;			
-		}
+		
 
 	}
 
@@ -2704,6 +2700,11 @@
 		header.major {
 			margin-bottom: 2em;
 		}
+		
+		header.major p {
+			font-size: 2vmin;			
+		}
+		
 
 	}
 
@@ -2712,8 +2713,20 @@
 		header.major h2 {
 			font-size: 1.75em;
 		}
+		
+		
 
 	}
+	
+	@media screen and (max-width: 380px) {
+
+		
+		header.major p {
+			font-size: 0.01rem;			
+		}
+
+	}
+	
 
 /* Table */
 
@@ -3173,14 +3186,14 @@
 		background-attachment: fixed;
 		background:#fff;
 		background-image:url("../../images/banner.png");
-		background-position: right bottom;
+		background-position:   bottom;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
 		min-height: 100vh;
 		height: 100vh !important;
 		position: relative;
-		
+						
 	}
 	
 		#banner:last-child {
@@ -3207,13 +3220,18 @@
 		}
 		#banner p a{text-decoration:none;color:#888}
 		#banner p a:hover{color:#555;font-weight:bolder;}
+		
+		
 
 
 
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 14em 0 11em 0;
+				padding: 15% 0 2em 0;
+				height:100%;
+				
+				
 			}
 
 				#banner h2 {
@@ -3225,7 +3243,8 @@
 		@media screen and (max-width: 980px) {
 
 			#banner {
-				padding: 9em 0 7em 0;
+				padding: 15% 0 2em 0;
+				height:100%;
 			}
 
 		}
@@ -3233,7 +3252,8 @@
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 6em 2em 6em 2em;
+				padding: 15% 0 2em 0;
+				height:100%;
 			}
 
 				#banner br {
@@ -3253,7 +3273,8 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 4em 2em 4em 2em;
+				padding: 50% 0 2em 0;
+				height:100%;
 			}
 
 		}
@@ -3279,7 +3300,6 @@
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
-		height: 100vh !important;
 	}
 
 		#footer a {
