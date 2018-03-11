@@ -2666,7 +2666,7 @@
 		}
 
 		header.major p {
-			font-size: 4vmin;
+			font-size: 10vmin;
 			margin-bottom: 0;
 			padding:4px;
 			}
@@ -2701,11 +2701,7 @@
 			margin-bottom: 2em;
 		}
 		
-		header.major p {
-			font-size: 2vmin;			
-		}
 		
-
 	}
 
 	@media screen and (max-width: 480px) {
@@ -2718,15 +2714,7 @@
 
 	}
 	
-	@media screen and (max-width: 380px) {
-
 		
-		header.major p {
-			font-size: 0.01rem;			
-		}
-
-	}
-	
 
 /* Table */
 
